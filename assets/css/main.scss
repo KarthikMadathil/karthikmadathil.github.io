@@ -1,0 +1,22 @@
+---
+# Add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+	display:inline;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"syntax",
+    "starsnonscss"
+;
+.mediumnavigation .form-control {
+    font-size: 0.8rem;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    min-width: 180px;
+}
