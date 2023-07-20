@@ -3,7 +3,7 @@ layout: post
 title:  "Setting up PHP dev environment made easy with Warden & Docker"
 author: karthik
 featured: true
-date:   2023-01-01 11:53:52 +0530
+date:   2023-07-20 11:53:52 +0530
 categories: [ PHP, Debug ,Docker ,Dev , DevEnvironment, Tools,Mysql,Nginix, Tutorial , Debugging , Coding]
 image: assets/images/warden-php-dev.png
 comments: false
@@ -37,7 +37,7 @@ Warden may be installed by cloning the repository to the directory of your choic
     PATH="/opt/warden/bin:$PATH"
     warden  svc  up
 
- 1. ####  Setting DNS
+ ####  Setting DNS
 Now configure your DNS to resolve *.test to 127.0.0.1 or use /etc/hosts 
 
 For that,  
@@ -48,13 +48,14 @@ Edit Hosts by
 Then  Add
 
 > 127.0.0.1                 *test
+
 ![](https://lh6.googleusercontent.com/XhB8SO-RBSzFgXmGMtp95UBLO64xVnncyA4blkWotAEvttO21t1RaC_skCWKMgvNESP046DYMOeAgbw4hMWiD4vrGswr4qHg9tuE_cVJ7vc44aQ4fTHevh6MZpJMLGN1kP5I64L-Deby3fA96kW1OVY)
 
   
 
 **Note** : By default while initialising a project warden make a host like <project_name>.test
-
- 2. #### Install SSL Certificate 
+ 
+  #### Install SSL Certificate 
 
 Download Certificate from   
 > ~/.warden/ssl/rootca/certs/ca.cert.pem
@@ -69,10 +70,7 @@ Import Certifiacate to browser (Chrome)
 go to Chrome Settings -> Privacy And Security -> Manage Certificates (see more) -> Authorities -> Import and select ~/.warden/ssl/rootca/certs/ca.cert.pem for import, then reload the page.
 
 ![](https://lh6.googleusercontent.com/t0q5IRItC9aZz4kYH-UX87Pn9iHWaKZCpyKPN3DLR0rDxqTe5J476vmZ23w19sGbGdQ-gwE2B3otN8TjVdMyKf32j9p_5pv0-NCRObbQxyZOiQtUWaLwPn0eJjoH_6xFCx0PNQCSE8_lfdZIdrk0kLc)
-
- 3.   
-
-
+ 
 
 ## Start Project 
 
@@ -107,8 +105,8 @@ Change wp-config.php configuration based on the auto generated .env file
 Now visit **wptestwar.test**
  
 For more installation instructions goto [Docs](https://docs.warden.dev/environments.html) 
- 
- # Conclusion 
+
+# Conclusion 
 
 Warden is an excellent tool for developers who want to set up their development environment quickly and easily. With its features like Traefik, Portainer, Dnsmasq, and SSH tunnel, you can create multiple local environments without port conflicts and connect to them easily. and also provides Xdebug functionality & almost all variety of PHP environments such as -
 -   [Drupal](https://docs.warden.dev/environments/types.html#drupal)
