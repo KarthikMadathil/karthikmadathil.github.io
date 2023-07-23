@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to setup WordPress Multisite using subdirectories on Warden"
+title:  "How to setup WordPress Multisite using subdirectories on Warden "
 author: karthik
 featured: false
 date:   2023-07-21 19:53:52 +0530
