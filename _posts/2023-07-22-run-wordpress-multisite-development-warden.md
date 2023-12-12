@@ -4,7 +4,7 @@ title:  "How to setup WordPress Multisite using subdirectories on Warden "
 author: karthik
 featured: false
 date:   2023-07-21 19:53:52 +0530
-categories: [ PHP, Wordpreess ,Docker ,Dev , DevEnvironment, Tools,Mysql,Nginix, Tutorial , Multisite , Coding]
+categories: [ PHP, Wordpress ,Docker ,Dev , DevEnvironment, Tools,Mysql,Nginix, Tutorial , Multisite , Coding]
 image: assets/images/wp-multisite-warden.png
 comments: false
 ---  
