@@ -339,7 +339,7 @@ to clone any website</p>
 </div>
 <div class="d-grid gap-2 d-md-block"> 
 
-  <a href="assets/files/karthik-resume.pdf" class="btn btn-outline-dark btn-lg">Download Resume as PDF    
+  <a href="assets/files/Karthik-Madathil-Senior-Software-Engineer-Golang.pdf" class="btn btn-outline-dark btn-lg">Download Resume as PDF    
   
   </a>
 </div>
